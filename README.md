@@ -2,7 +2,7 @@
 
 ![alt text](https://github.com/kanakmi/dogvscat/blob/main/Cover.png?raw=True)
 
-The classic AI problem to classify between Images of Cat and Dog.<br>
+The classic AI problem to classify images of Cats and Dogs.<br>
 The model uses 8000 images (4000 each of Cat and Dog) for the classification task.<br>
 The Dataset is Taken from Kaggle and the link for the same is https://www.kaggle.com/chetankv/dogs-cats-images <br>
 After Image Augmentation, the total number of Images are 14000 out of which 10% (1400) images form the Validation Set.<br>
