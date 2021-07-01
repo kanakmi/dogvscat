@@ -25,18 +25,18 @@ The model has over 4 Million trainable parameters.
 
 ## UI for the APP -
 
-<i>The basic UI for the app is taken from Sports Classifier project made by Dhaval Patel. Link to his Youtube Channel - https://www.youtube.com/channel/UCh9nVJoWXmFb7sLApWGcLPQ. </i><br>
-The <b>server.py</b> file contains the Flask server required to run this app on the system.
+<i>The basic UI for the app is taken from Sports Classifier project made by Dhaval Patel. I have made multiple changes in his code but the html and css file are essentially the same. Link to his Youtube Channel - https://www.youtube.com/channel/UCh9nVJoWXmFb7sLApWGcLPQ. </i><br><br>
+The <b>server.py</b> file contains the Flask server required to run this app on the system.<br>
 The <b>util.py</b> file contains the steps that are performed once the user uploads an image to the app. The saved model is loaded from the memory and input image is preprocessed, predictions are made and the result is routed to the <b>app.js</b> file which maps the output onto the Webpage.<br>
 
-### Libraries Required for GUI -
+### Libraries Required for GUI & Server -
 
 1. tensorflow == 2.3.0 (or above)
 2. opencv-python == 4.5.2.54
 3. Flask == 2.0.1 <br>
-<i>There are more libraries mentioned in requirements.txt folder but tensorflow installs most of them automatically.</i>
+<i>There are more libraries mentioned in requirements.txt file inside UI folder but tensorflow installs most of them automatically.</i>
 
-## Steps to Run this UI on your system -
+## Steps to Run UI on your system -
 
 1. Download the UI folder folder from the repository.
 2. Install the required libraries.
