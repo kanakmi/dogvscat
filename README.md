@@ -1,6 +1,7 @@
 # Dog vs Cat
 
-### <i> Try it yourself - https://kanakmi-dogvscat.herokuapp.com/ </i><br>
+### <i> Try it yourself - https://kanakmi-dogvscat.herokuapp.com/ </i>
+<br>
 
 [![Cover Image](https://github.com/kanakmi/dogvscat/blob/main/Cover.png?raw=True)](https://kanakmi-dogvscat.herokuapp.com/)
 
@@ -21,8 +22,11 @@ The Dataset is taken from Kaggle and the link for the same is https://www.kaggle
 After Image Augmentation, the total number of training Images come out to be 16000.<br>
 For testing the best model, 2000 different images (1000 each of cat and dog) are used out of which 50% (1000) images form the Validation Set. 
 The model with the least Validation Loss is saved for future predictions.<br>
-The best saved model gives an Accuracy of 89% with a good balance between Precision and Recall.<br>
-![Confusion Matrix](https://github.com/kanakmi/dogvscat/blob/main/confusion_matrix.png?raw=True)
+The best saved model gives an Accuracy of 89% with a good balance between Precision and Recall.<br><br>
+Classification Report - <br>
+<p align="center">
+<img alt="Confusion Report" width="40%" src="https://github.com/kanakmi/dogvscat/blob/main/confusion_matrix.PNG?raw=True" />
+</p>
 
 ## About the Model
 
@@ -46,7 +50,7 @@ The <b>util.py</b> file contains the steps that are performed once the user uplo
 
 ### Libraries Required for GUI & Server -
 
-The required libraries are mentioned in the requirements.txt file inside UI folder and can be simply installed using command <i>pip install requirements.txt</i>
+The required libraries are mentioned in the <b>requirements.txt</b> file inside UI folder and can be simply installed using command <i>pip install requirements.txt</i>
 
 ## Steps to Run UI on your system -
 
