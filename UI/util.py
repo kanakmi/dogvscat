@@ -4,12 +4,12 @@ import tensorflow as tf
 import os
 import base64
 
-with open('DogvsCat-model.json', 'r') as json_file:
+with open('../Trained_Model/DogvsCat-model.json', 'r') as json_file:
     json_savedModel = json_file.read()
 
 # load the model architecture
 model = tf.keras.models.model_from_json(json_savedModel)
-model.load_weights('DogvsCat_weights.hdf5')
+model.load_weights('../Trained_Model/DogvsCat_weights.hdf5')
 model.compile(optimizer="Adam",loss="sparse_categorical_crossentropy", metrics=["accuracy"])
 
 labels = {0: "cat", 1: "dog"}
